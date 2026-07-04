@@ -13,6 +13,13 @@ This project demonstrates how to deploy a containerized Flask application in a p
 The application is deployed on an Ubuntu EC2 instance, served by Gunicorn, reverse-proxied by Nginx, and automatically deployed through GitHub Actions whenever changes are pushed to the `main` branch.
 
 ---
+# 🚀 Production Flask Application on AWS
+
+![Python](https://img.shields.io/badge/Python-3-blue)
+![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
+![AWS](https://img.shields.io/badge/AWS-EC2-orange)
+![Nginx](https://img.shields.io/badge/Nginx-Reverse_Proxy-green)
+![GitHub Actions](https://img.shields.io/badge/CI/CD-GitHub_Actions-success)
 
 ## 🏗️ Architecture
 
