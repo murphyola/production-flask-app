@@ -16,6 +16,8 @@ The application is deployed on an Ubuntu EC2 instance, served by Gunicorn, rever
 
 ## 🏗️ Architecture
 
+![Architecture](images/architecture.png)
+
 ```text
                 Internet
                     │
