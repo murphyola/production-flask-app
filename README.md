@@ -165,7 +165,7 @@ Workflow:
 * Terraform infrastructure provisioning
 * Monitoring with Prometheus and Grafana
 * Centralized logging
-* Kubernetes deployment
+* Kubernetes deployments
 
 ---
 
