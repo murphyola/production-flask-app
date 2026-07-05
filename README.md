@@ -139,6 +139,25 @@ Workflow:
 
 ---
 
+
+## 📷 Screenshots
+
+### Application
+
+![Homepage](screenshots/homepage.png)
+
+### Docker Containers
+
+![Docker](screenshots/docker-compose-ps.png)
+
+### GitHub Actions
+
+![GitHub Actions](screenshots/github-actions-success.png)
+
+### AWS EC2
+
+![EC2](screenshots/ec2-instance.png)
+
 ## 📈 Future Improvements
 
 * HTTPS with Let's Encrypt
@@ -146,7 +165,7 @@ Workflow:
 * Terraform infrastructure provisioning
 * Monitoring with Prometheus and Grafana
 * Centralized logging
-* Kubernetes deployment
+* Kubernetes deployments
 
 ---
 
