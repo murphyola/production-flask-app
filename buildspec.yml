@@ -1,0 +1,30 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.12
+    commands:
+      - echo "Installing application dependencies and pytest..."
+      - pip install -r app/requirements.txt
+      - pip install pytest
+
+  pre_build:
+    commands:
+      - echo "Starting automated tests..."
+
+  build:
+    commands:
+      - python -m pytest -v
+
+  post_build:
+    commands:
+      - echo "Build and tests completed."
+
+artifacts:
+  files:
+    - '**/*'
+  exclude-paths:
+    - '.git/**/*'
+    - '.pytest_cache/**/*'
+    - '__pycache__/**/*'
