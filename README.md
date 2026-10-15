@@ -136,6 +136,7 @@ Workflow:
 2. GitHub Actions connects to the EC2 instance using SSH.
 3. The deployment script pulls the latest code.
 4. Docker Compose rebuilds and restarts the application.
+5. The application works successfully
 
 ---
 
